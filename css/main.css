@@ -1,0 +1,26 @@
+div{
+	height: 50px;
+	width: 50px;
+	background-color: #49FFFA;
+	border: 1px solid black;
+	margin: 3px;
+}
+/*primera y última fila, 1 caja usando display*/
+.fila1, .fila4{
+	display: block;	
+}
+/*segunda fila, 3 cajas dentro*/
+.fila2{
+		height: 60px;
+		width: 183px;
+		display: block;
+}
+.fila2 *{
+	display: inline-block;
+	background-color: #36E8B1;
+}
+/*tercera fila, 2 cajas juntas*/
+.fila3{
+	display: inline-block;
+}
+
